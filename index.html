@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b5ea8">
+<title>Guida Assistenza Protesica Lazio</title>
+<meta name="description" content="Trova ASL, distretto e ufficio di assistenza protesica nel Lazio.">
+<link rel="icon" type="image/png" href="assets/logo-altra-mobilita.png">
+<link rel="apple-touch-icon" href="assets/logo-altra-mobilita.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrap">
+<div id="mini-header" class="mini-header hidden">
+  <img src="assets/logo-altra-mobilita.png" alt="Altra Mobilità" class="mini-logo">
+  <span>Guida rapida ASL, distretto e ufficio di assistenza protesica nel Lazio — un servizio di Altra Mobilità.</span>
+</div>
+<section id="hero" class="hero">
+  <div class="hero-top">
+    <div>
+      <div class="brand-mark">
+        <img class="brand-logo" src="assets/logo-altra-mobilita.png" alt="Altra Mobilità">
+        <span>Un servizio a cura di Altra Mobilità</span>
+      </div>
+      <h1>Guida Assistenza Protesica Lazio</h1>
+      <p>Trova in pochi passaggi ASL, distretto e ufficio protesica competente.</p>
+    </div>
+  </div>
+  <div class="hero-actions">
+    <button class="hero-btn" onclick="shareGuide()">↗ Condividi guida</button>
+  </div>
+  <div class="badges">
+    <span class="badge">10 ASL</span>
+    <span class="badge">392 Comuni/Municipi</span>
+    <span class="badge">Fonti ufficiali</span>
+    <span class="badge">Dati verificati 12/09/2026</span>
+  </div>
+</section>
+
+<section id="home" class="panel">
+  <div class="step">Inizia qui</div>
+  <h2>Come vuoi trovare il tuo ufficio?</h2>
+  <p class="lead">Scegli il percorso più semplice in base alle informazioni che già conosci.</p>
+  <div class="entry-grid">
+    <button class="entry" onclick="openMode('roma')"><div class="icon">🏛️</div><strong>Vivo a Roma</strong><span>Scegli direttamente il Municipio.</span></button>
+    <button class="entry" onclick="openMode('comune')"><div class="icon">📍</div><strong>Vivo fuori Roma</strong><span>Scrivi il Comune e trova automaticamente l'ufficio.</span></button>
+    <button class="entry" onclick="openMode('cap')"><div class="icon">🔢</div><strong>Conosco il CAP</strong><span>Inserisci il CAP di residenza e trova i territori compatibili.</span></button>
+    <button class="entry" onclick="openMode('asl')"><div class="icon">🏥</div><strong>Conosco già la mia ASL</strong><span>Visualizza distretti e territori della ASL.</span></button>
+  </div>
+</section>
+
+<section id="mode-roma" class="panel hidden">
+  <button class="btn back" onclick="goHome()">← Torna indietro</button>
+  <div class="step" style="margin-top:14px">Roma Capitale</div>
+  <h2>Scegli il tuo Municipio</h2>
+  <p class="lead">I Municipi sono raggruppati per ASL. Tocca il tuo Municipio per arrivare all'ufficio competente.</p>
+  <div id="rome-groups"></div>
+</section>
+
+<section id="mode-comune" class="panel hidden">
+  <button class="btn back" onclick="goHome()">← Torna indietro</button>
+  <div class="step" style="margin-top:14px">Comuni fuori Roma</div>
+  <h2>Scrivi il tuo Comune</h2>
+  <p class="lead">Inizia a digitare: compariranno sotto solo i Comuni corrispondenti.</p>
+  <div id="comune-search-shell" class="search-shell">
+    <div class="search-row">
+      <input id="comune-search" type="search" placeholder="Es. Tivoli, Viterbo, Sabaudia..."
+        autocomplete="off" autocorrect="off" spellcheck="false" autocapitalize="words"
+        enterkeyhint="search" aria-label="Cerca il Comune di residenza"
+        aria-controls="comune-suggestions" aria-expanded="false">
+      <button class="btn primary" onclick="findComune()">Cerca</button>
+    </div>
+    <div id="comune-suggestions" class="suggestions" role="listbox"></div>
+  </div>
+  <div id="comune-msg" class="small" style="margin-top:9px">Digita almeno 2 lettere oppure il nome completo del Comune.</div>
+</section>
+
+
+<section id="mode-cap" class="panel hidden">
+  <button class="btn back" onclick="goHome()">← Torna indietro</button>
+  <div class="step" style="margin-top:14px">Ricerca per CAP</div>
+  <h2>Inserisci il CAP di residenza</h2>
+  <p class="lead">Per Roma il CAP restringe la ricerca a uno o due Municipi. Se il CAP attraversa troppe zone, ti verrà chiesto di verificare il Municipio tramite l'indirizzo.</p>
+  <div class="search-row">
+    <input id="cap-search" type="search" inputmode="numeric" maxlength="5"
+      placeholder="Es. 00019, 01100, 00165"
+      autocomplete="postal-code" enterkeyhint="search"
+      aria-label="Inserisci il CAP di residenza">
+    <button class="btn primary" onclick="findCap()">Cerca CAP</button>
+  </div>
+  <div id="cap-msg" class="small" style="margin-top:9px">Inserisci un CAP di 5 cifre.</div>
+  <div id="cap-results" style="margin-top:12px"></div>
+</section>
+
+<section id="mode-asl" class="panel hidden">
+  <button class="btn back" onclick="goHome()">← Torna indietro</button>
+  <div class="step" style="margin-top:14px">Ricerca per ASL</div>
+  <h2>Seleziona la tua ASL</h2>
+  <p class="lead">Vedrai i distretti e, sotto ciascuno, i Municipi o Comuni che ne fanno parte.</p>
+  <div id="asl-buttons" class="choice-grid"></div>
+  <div id="asl-browser"></div>
+</section>
+
+<section id="result" class="hidden">
+  <div class="panel">
+    <div class="result-head">
+      <button class="btn back" onclick="backToCurrentMode()">← Cambia territorio</button>
+    </div>
+    <div class="step" style="margin-top:14px">Il tuo risultato</div>
+    <div class="summary">
+      <div class="box"><div class="label">Territorio</div><div id="res-territorio" class="value"></div></div>
+      <div class="box"><div class="label">ASL</div><div id="res-asl" class="value"></div></div>
+      <div class="box"><div class="label">Distretto</div><div id="res-distretto" class="value"></div></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="step">Informazioni utili</div>
+    <h2>Dove devi andare</h2>
+    <p id="office-intro" class="lead"></p>
+    <div id="office-cards" class="office-list"></div>
+  </div>
+
+  <div class="panel">
+    <div class="step">Fonti ufficiali</div>
+    <h2>Verifica le informazioni</h2>
+    <p class="lead">Qui trovi le pagine istituzionali da cui sono stati ricavati i dati.</p>
+    <div id="source-links" class="source-list"></div>
+    <details class="details">
+      <summary>Mostra dettagli tecnici e affidabilità dei dati</summary>
+      <div id="technical-details" class="inside"></div>
+    </details>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="step">Legenda</div>
+  <p><strong>A</strong> = dato ufficiale e coerente. <strong>B</strong> = fonte ufficiale ma da ricontrollare. <strong>C</strong> = dato con conflitto o non sufficientemente confermato.</p>
+  <div class="notice"><strong><span class="star">*</span> Orario o recapito da verificare.</strong> Prima di recarti allo sportello, contatta la ASL telefonicamente o via e-mail.</div>
+  <div class="statusline"><span class="dot"></span><span class="small">Dataset verificato il 12/09/2026.</span></div>
+  <p class="small" style="margin:10px 0 0">Ricerca CAP: per Roma vengono mostrate al massimo due alternative di Municipio. Nei CAP troppo trasversali è richiesta la verifica puntuale dell'indirizzo sul servizio ufficiale di Roma Capitale.</p>
+</section>
+
+<footer>
+  <p>Guida orientativa. In caso di variazioni prevalgono sempre le indicazioni pubblicate dalla ASL o dalla Regione Lazio.</p>
+  <div class="footer-brand"><img src="assets/logo-altra-mobilita.png" alt="" width="20" height="20"><span>Un servizio a cura di Altra Mobilità</span></div>
+</footer>
+</div>
+<script src="data/lazio_protesica_db.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

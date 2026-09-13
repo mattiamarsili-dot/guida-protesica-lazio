@@ -1,0 +1,4961 @@
+{
+  "meta": {
+    "title": "Guida Assistenza Protesica Lazio",
+    "version": "5.0",
+    "dataset_verified": "2026-09-12",
+    "generated": "2026-09-13",
+    "legend": {
+      "A": "Dato ufficiale e coerente.",
+      "B": "Fonte ufficiale ma da ricontrollare.",
+      "C": "Dato con conflitto, incompleto o da verificare.",
+      "*": "Orario o recapito da verificare prima dell'accesso."
+    }
+  },
+  "asls": [
+    {
+      "ASL_ID": "ASL01",
+      "ASL": "ASL Frosinone"
+    },
+    {
+      "ASL_ID": "ASL02",
+      "ASL": "ASL Latina"
+    },
+    {
+      "ASL_ID": "ASL03",
+      "ASL": "ASL Rieti"
+    },
+    {
+      "ASL_ID": "ASL04",
+      "ASL": "ASL Roma 1"
+    },
+    {
+      "ASL_ID": "ASL05",
+      "ASL": "ASL Roma 2"
+    },
+    {
+      "ASL_ID": "ASL06",
+      "ASL": "ASL Roma 3"
+    },
+    {
+      "ASL_ID": "ASL07",
+      "ASL": "ASL Roma 4"
+    },
+    {
+      "ASL_ID": "ASL08",
+      "ASL": "ASL Roma 5"
+    },
+    {
+      "ASL_ID": "ASL09",
+      "ASL": "ASL Roma 6"
+    },
+    {
+      "ASL_ID": "ASL10",
+      "ASL": "ASL Viterbo"
+    }
+  ],
+  "districts": [
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D1",
+      "Distretto": "D1",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D2",
+      "Distretto": "D2",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D3",
+      "Distretto": "D3",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D13",
+      "Distretto": "D13",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D14",
+      "Distretto": "D14",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D15",
+      "Distretto": "D15",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D5",
+      "Distretto": "D5",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D6",
+      "Distretto": "D6",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D7",
+      "Distretto": "D7",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D8",
+      "Distretto": "D8",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D9",
+      "Distretto": "D9",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Fiumicino",
+      "Distretto": "Fiumicino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio X",
+      "Distretto": "Municipio X",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio XI",
+      "Distretto": "Municipio XI",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio XII",
+      "Distretto": "Municipio XII",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Civitavecchia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D2",
+      "Distretto": "D2 Cerveteri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Bracciano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Monterotondo",
+      "Distretto": "Monterotondo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Distretto": "H1 Frascati",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H2",
+      "Distretto": "H2 Albano Laziale",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H3",
+      "Distretto": "H3 Ciampino-Marino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H4",
+      "Distretto": "H4 Pomezia-Ardea",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H5",
+      "Distretto": "H5 Velletri-Lariano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H6",
+      "Distretto": "H6 Anzio-Nettuno",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Distretto": "Distretto B",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Aprilia-Cisterna",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Distretto": "D2 Latina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Monti Lepini",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Distretto": "D4 Terracina-Fondi",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Affidabilita_mappa": "A"
+    }
+  ],
+  "territories": [
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D1",
+      "Distretto": "D1",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio I",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D2",
+      "Distretto": "D2",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio II",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D3",
+      "Distretto": "D3",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio III",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D13",
+      "Distretto": "D13",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio XIII",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D14",
+      "Distretto": "D14",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio XIV",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D15",
+      "Distretto": "D15",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio XV",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio IV",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D5",
+      "Distretto": "D5",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio V",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D6",
+      "Distretto": "D6",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio VI",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D7",
+      "Distretto": "D7",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio VII",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D8",
+      "Distretto": "D8",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio VIII",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D9",
+      "Distretto": "D9",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio IX",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Fiumicino",
+      "Distretto": "Fiumicino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fiumicino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio X",
+      "Distretto": "Municipio X",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio X",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio XI",
+      "Distretto": "Municipio XI",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio XI",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio XII",
+      "Distretto": "Municipio XII",
+      "Tipo_territorio": "Municipio",
+      "Comune_o_Municipio": "Municipio XII",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Civitavecchia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Civitavecchia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Civitavecchia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Allumiere",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Civitavecchia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Tolfa",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Civitavecchia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Santa Marinella",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D2",
+      "Distretto": "D2 Cerveteri",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cerveteri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D2",
+      "Distretto": "D2 Cerveteri",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ladispoli",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Bracciano",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Anguillara Sabazia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Bracciano",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Bracciano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Bracciano",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Canale Monterano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Bracciano",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Manziana",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Bracciano",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Trevignano Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Campagnano di Roma",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Capena",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castelnuovo di Porto",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Civitella San Paolo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fiano Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Filacciano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Formello",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Magliano Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Mazzano Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Morlupo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Nazzano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ponzano Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Riano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rignano Flaminio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sacrofano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sant'Oreste",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Distretto": "D4",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Torrita Tiberina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Monterotondo",
+      "Distretto": "Monterotondo",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fonte Nuova",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Monterotondo",
+      "Distretto": "Monterotondo",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Mentana",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Monterotondo",
+      "Distretto": "Monterotondo",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monterotondo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Guidonia Montecelio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Marcellina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monteflavio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Montelibretti",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Montorio Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Moricone",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Nerola",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Palombara Sabina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Distretto": "Guidonia",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sant'Angelo Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Casape",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castel Madama",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cerreto Laziale",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ciciliano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Gerano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Licenza",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Mandela",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Percile",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pisoniano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Poli",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Roccagiovine",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sambuci",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Gregorio da Sassola",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Polo dei Cavalieri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Saracinesco",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Tivoli",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Distretto": "Tivoli",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vicovaro",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Affile",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Agosta",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Anticoli Corrado",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Arcinazzo Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Arsoli",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Bellegra",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Camerata Nuova",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Canterano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cervara di Roma",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cineto Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Jenne",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Marano Equo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Olevano Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Riofreddo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rocca Canterano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rocca Santo Stefano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Roiate",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Roviano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Subiaco",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vallepietra",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vallinfreda",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Distretto": "Subiaco",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vivaro Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Capranica Prenestina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castel San Pietro Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cave",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Gallicano nel Lazio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Genazzano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Palestrina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rocca di Cave",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Cesareo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Vito Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Distretto": "Palestrina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Zagarolo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Artena",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Carpineto Romano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Colleferro",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Gavignano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Gorga",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Labico",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Montelanico",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Segni",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Distretto": "Colleferro",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Valmontone",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Distretto": "H1 Frascati",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Colonna",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Distretto": "H1 Frascati",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Frascati",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Distretto": "H1 Frascati",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Grottaferrata",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Distretto": "H1 Frascati",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monte Compatri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Distretto": "H1 Frascati",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monte Porzio Catone",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Distretto": "H1 Frascati",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rocca di Papa",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Distretto": "H1 Frascati",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rocca Priora",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H2",
+      "Distretto": "H2 Albano Laziale",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Albano Laziale",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H2",
+      "Distretto": "H2 Albano Laziale",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ariccia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H2",
+      "Distretto": "H2 Albano Laziale",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castel Gandolfo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H2",
+      "Distretto": "H2 Albano Laziale",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Genzano di Roma",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H2",
+      "Distretto": "H2 Albano Laziale",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Lanuvio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H2",
+      "Distretto": "H2 Albano Laziale",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Nemi",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H3",
+      "Distretto": "H3 Ciampino-Marino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ciampino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H3",
+      "Distretto": "H3 Ciampino-Marino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Marino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H4",
+      "Distretto": "H4 Pomezia-Ardea",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ardea",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H4",
+      "Distretto": "H4 Pomezia-Ardea",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pomezia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H5",
+      "Distretto": "H5 Velletri-Lariano",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Lariano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H5",
+      "Distretto": "H5 Velletri-Lariano",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Velletri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H6",
+      "Distretto": "H6 Anzio-Nettuno",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Anzio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H6",
+      "Distretto": "H6 Anzio-Nettuno",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Nettuno",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Acquapendente",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Arlena di Castro",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Bagnoregio",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Bolsena",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Canino",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Capodimonte",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castiglione in Teverina",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cellere",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Civitella d'Agliano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Farnese",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Gradoli",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Graffignano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Grotte di Castro",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ischia di Castro",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Latera",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Lubriano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Marta",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Montalto di Castro",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Montefiascone",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monte Romano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Onano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Piansano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Proceno",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Lorenzo Nuovo",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Tarquinia",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Tessennano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Tuscania",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Distretto": "Distretto A",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Valentano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Distretto": "Distretto B",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Bassano in Teverina",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Distretto": "Distretto B",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Bomarzo",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Distretto": "Distretto B",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Canepina",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Distretto": "Distretto B",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Celleno",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Distretto": "Distretto B",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Orte",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Distretto": "Distretto B",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Soriano nel Cimino",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Distretto": "Distretto B",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Viterbo",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Distretto": "Distretto B",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vitorchiano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Barbarano Romano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Bassano Romano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Blera",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Calcata",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Capranica",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Caprarola",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Carbognano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castel Sant'Elia",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Civita Castellana",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Corchiano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fabrica di Roma",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Faleria",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Gallese",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monterosi",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Nepi",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Oriolo Romano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ronciglione",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sutri",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vallerano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vasanello",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vejano",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vetralla",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vignanello",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Distretto": "Distretto C",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Villa San Giovanni in Tuscia",
+      "Affidabilita_mappa": "B"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ascrea",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Belmonte in Sabina",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cantalice",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castel di Tora",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cittaducale",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Collalto Sabino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Colle di Tora",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Collegiove",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Colli sul Velino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Contigliano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Greccio",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Labro",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Leonessa",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Longone Sabino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monte San Giovanni in Sabina",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Montenero Sabino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Morro Reatino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Nespolo",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Paganico Sabino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Poggio Bustone",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rieti",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rivodutri",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rocca Sinibalda",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Torricella in Sabina",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Turania",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Borgorose",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Concerviano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fiamignano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Marcetelli",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pescorocchiano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Petrella Salto",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Varco Sabino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Accumoli",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Amatrice",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Antrodoco",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Borbona",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Borgo Velino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castel Sant'Angelo",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cittareale",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Micigliano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Distretto": "Distretto Reatino / Rieti-Antrodoco-S. Elpidio",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Posta",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cantalupo in Sabina",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Casperia",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Collevecchio",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Configni",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cottanello",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Forano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Magliano Sabina",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Mompeo",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Montasola",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Montebuono",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Montopoli di Sabina",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Poggio Catino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Poggio Mirteto",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Roccantica",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Salisano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Selci",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Stimigliano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Tarano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Torri in Sabina",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vacone",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Casaprota",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castelnuovo di Farfa",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fara in Sabina",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Frasso Sabino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monteleone Sabino",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Orvinio",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Poggio Moiano",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Poggio Nativo",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Poggio San Lorenzo",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pozzaglia Sabina",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Scandriglia",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Distretto": "Distretto Sabino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Toffia",
+      "Affidabilita_mappa": "C"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Aprilia-Cisterna",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Aprilia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Aprilia-Cisterna",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cisterna di Latina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Aprilia-Cisterna",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cori",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Distretto": "D1 Aprilia-Cisterna",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rocca Massima",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Distretto": "D2 Latina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Latina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Distretto": "D2 Latina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pontinia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Distretto": "D2 Latina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Norma",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Distretto": "D2 Latina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sermoneta",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Distretto": "D2 Latina",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sabaudia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Monti Lepini",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Roccagorga",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Monti Lepini",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sezze",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Monti Lepini",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Bassiano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Monti Lepini",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Priverno",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Monti Lepini",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Maenza",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Monti Lepini",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Roccasecca dei Volsci",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Monti Lepini",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Prossedi",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Distretto": "D3 Monti Lepini",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sonnino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Distretto": "D4 Terracina-Fondi",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Terracina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Distretto": "D4 Terracina-Fondi",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fondi",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Distretto": "D4 Terracina-Fondi",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monte San Biagio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Distretto": "D4 Terracina-Fondi",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Felice Circeo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Distretto": "D4 Terracina-Fondi",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Lenola",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Distretto": "D4 Terracina-Fondi",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Campodimele",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Distretto": "D4 Terracina-Fondi",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sperlonga",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Formia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Gaeta",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Itri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Minturno",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castelforte",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Santi Cosma e Damiano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Spigno Saturnia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ponza",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Distretto": "D5 Formia-Gaeta",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ventotene",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Acuto",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Alatri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Anagni",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Collepardo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Filettino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fiuggi",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Guarcino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Paliano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Piglio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Serrone",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sgurgola",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Torre Cajetani",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Trevi nel Lazio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Trivigliano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Distretto": "A Alatri-Anagni",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vico nel Lazio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Amaseno",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Arnara",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Boville Ernica",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castro dei Volsci",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ceccano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ceprano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Falvaterra",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ferentino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Frosinone",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fumone",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Giuliano di Roma",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Morolo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pastena",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Patrica",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pofi",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ripi",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Giovanni Incarico",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Strangolagalli",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Supino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Torrice",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vallecorsa",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Veroli",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Distretto": "B Frosinone",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Villa Santo Stefano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Alvito",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Arce",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Arpino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Atina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Belmonte Castello",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Broccostella",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Campoli Appennino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Casalattico",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Casalvieri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castelliri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Colfelice",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fontana Liri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Fontechiari",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Gallinaro",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Isola del Liri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Monte San Giovanni Campano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pescosolido",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Picinisco",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Posta Fibreno",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Rocca d'Arce",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Biagio Saracinisco",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Donato Val di Comino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Santopadre",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Settefrati",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sora",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vicalvi",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Distretto": "C Sora",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Villa Latina",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Acquafondata",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Aquino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Ausonia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cassino",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castelnuovo Parano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Castrocielo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Cervaro",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Colle San Magno",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Coreno Ausonio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Esperia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pico",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Piedimonte San Germano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pignataro Interamna",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Pontecorvo",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Roccasecca",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Giorgio a Liri",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "San Vittore del Lazio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sant'Ambrogio sul Garigliano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sant'Andrea del Garigliano",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sant'Apollinare",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Sant'Elia Fiumerapido",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Terelle",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vallemaio",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Vallerotonda",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Villa Santa Lucia",
+      "Affidabilita_mappa": "A"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Distretto": "D Cassino",
+      "Tipo_territorio": "Comune",
+      "Comune_o_Municipio": "Viticuso",
+      "Affidabilita_mappa": "A"
+    }
+  ],
+  "offices": [
+    {
+      "Office_ID": "R1-D1",
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D1",
+      "Ufficio": "Assistenza Protesica D1",
+      "Indirizzo": "Casa della Comunità Esquilino, Via Luigi Luzzatti 8, Roma",
+      "Telefono": "06 6010 5493 / 5233 / 5830",
+      "Email": "protesica1@aslroma1.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer 10:30-12:30",
+      "Orari_telefonici": "Mar, Gio 10:30-12:30",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma1.it/servizi-di-assistenza-protesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R1-D2",
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D2",
+      "Ufficio": "Assistenza Protesica D2",
+      "Indirizzo": "CdC Nomentano, Circonvallazione Nomentana 498, Roma",
+      "Telefono": "06 6010 5543 / 5555",
+      "Email": "uo.protesi.2ds@aslroma1.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer 08:30-12:00",
+      "Orari_telefonici": "Mar, Gio 10:30-12:30",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma1.it/servizi-di-assistenza-protesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R1-D3",
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D3",
+      "Ufficio": "Assistenza Protesica D3",
+      "Indirizzo": "Via Monte Rocchetta 14, Roma",
+      "Telefono": "06 6010 6381 / 6382",
+      "Email": "uo.protesi.3ds@aslroma1.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer 08:00-12:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma1.it/servizi-di-assistenza-protesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R1-D13",
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D13",
+      "Ufficio": "Assistenza Protesica D13",
+      "Indirizzo": "CdC Boccea, Via Boccea 271, Roma",
+      "Telefono": "06 6010 5162 / 5133",
+      "Email": "protesica.distretto13@aslroma1.it",
+      "PEC": "",
+      "Orari_pubblico": "Mer, Ven 09:00-11:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma1.it/servizi-di-assistenza-protesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R1-D14",
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D14",
+      "Ufficio": "Assistenza Protesica D14",
+      "Indirizzo": "CdC Santa Maria della Pietà, Piazza Santa Maria della Pietà 5, Pad. 13, Roma",
+      "Telefono": "06 6010 6748",
+      "Email": "protesica14@aslroma1.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Ven 08:30-11:30; Mer 14:00-16:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma1.it/servizi-di-assistenza-protesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R1-D15",
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D15",
+      "Ufficio": "Assistenza Protesica D15",
+      "Indirizzo": "Via della Stazione di Prima Porta 8, Roma",
+      "Telefono": "06 6010 6159 / 6162 / 5370",
+      "Email": "assistenzaprotesica15@aslroma1.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Ven 08:30-12:30",
+      "Orari_telefonici": "Mar, Gio 08:30-12:30",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma1.it/servizi-di-assistenza-protesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R2-D4",
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D4",
+      "Ufficio": "Assistenza Protesica D4",
+      "Indirizzo": "Viale Bardanzellu 8, Roma",
+      "Telefono": "06 4143 2024 / 6925",
+      "Email": "assistenzaprotesicad4@aslroma2.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer, Ven 08:30-11:30",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma2.it/index.php/servizi/medicina-legale/medicina-protesica?id=11&view=page",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R2-D5",
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D5",
+      "Ufficio": "Assistenza Protesica D5",
+      "Indirizzo": "Via Casilina 395, Roma",
+      "Telefono": "06 5100 7731 / 7210 / 7500 / 7513",
+      "Email": "assistenzaprotesicad5@aslroma2.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer, Ven 08:30-12:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma2.it/index.php/servizi/medicina-legale/medicina-protesica?id=11&view=page",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R2-D6",
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D6",
+      "Ufficio": "Assistenza Protesica D6",
+      "Indirizzo": "Via Duilio Cambellotti 11, Roma",
+      "Telefono": "06 4143 6269 / 6267",
+      "Email": "assistenzaprotesicad6@aslroma2.it",
+      "PEC": "",
+      "Orari_pubblico": "Mer, Ven 09:00-11:30 (40 numeri)",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma2.it/index.php/servizi/medicina-legale/medicina-protesica?id=11&view=page",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R2-D7",
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D7",
+      "Ufficio": "Assistenza Protesica D7",
+      "Indirizzo": "Viale Bruno Rizzieri 226, Roma",
+      "Telefono": "06 4143 4057 / 4068",
+      "Email": "assistenzaprotesicad7@aslroma2.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer, Ven 08:30-12:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma2.it/index.php/servizi/medicina-legale/medicina-protesica?id=11&view=page",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R2-D8",
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D8",
+      "Ufficio": "Assistenza Protesica D8",
+      "Indirizzo": "Viale Tor Marancia 21, Roma",
+      "Telefono": "06 5100 8939 / 8937",
+      "Email": "assistenzaprotesicad8@aslroma2.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer 09:00-12:00; Gio 14:45-16:45",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma2.it/index.php/servizi/medicina-legale/medicina-protesica?id=11&view=page",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R2-D9",
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D9",
+      "Ufficio": "Assistenza Protesica D9",
+      "Indirizzo": "Via Noventa 8, Roma",
+      "Telefono": "06 5100 8262 / 8265",
+      "Email": "assistenzaprotesicad9@aslroma2.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer 09:00-12:00; Gio 14:00-16:30",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma2.it/index.php/servizi/medicina-legale/medicina-protesica?id=11&view=page",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R3-FIUM",
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Fiumicino",
+      "Ufficio": "Assistenza Protesica Fiumicino",
+      "Indirizzo": "Via Coni Zugna 173, Fiumicino",
+      "Telefono": "06 5648 4500 / 4529",
+      "Email": "protesica1@aslroma3.it",
+      "PEC": "",
+      "Orari_pubblico": "Gio 09:00-11:00",
+      "Orari_telefonici": "Mer, Gio 11:30-12:30",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma3.it/distretti/fiumicino/ufficio-riabilitazione-territoriale-assistenza-protesica-fiumicino/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R3-X",
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio X",
+      "Ufficio": "Assistenza Protesica Municipio X",
+      "Indirizzo": "Viale delle Repubbliche Marinare 118, Roma",
+      "Telefono": "06 5648 3533",
+      "Email": "protesica2@aslroma3.it",
+      "PEC": "",
+      "Orari_pubblico": "Mar, Gio 08:30-11:30",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma3.it/distretti/municipio-x/ufficio-riabilitazione-territoriale-assistenza-protesica-municipio-x/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R3-XI",
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio XI",
+      "Ufficio": "Assistenza Protesica Municipio XI",
+      "Indirizzo": "Via Domenico Lupatelli 7, Roma",
+      "Telefono": "06 5648 5800",
+      "Email": "protesica3@aslroma3.it",
+      "PEC": "",
+      "Orari_pubblico": "Mer 09:00-11:00",
+      "Orari_telefonici": "Lun, Gio 11:00-12:30",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma3.it/distretti/municipio-xi/ufficio-riabilitazione-territoriale-assistenza-protesica-municipio-xi/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R3-XII",
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio XII",
+      "Ufficio": "Assistenza Protesica Municipio XII",
+      "Indirizzo": "Via Bernardino Ramazzini 15, Roma",
+      "Telefono": "06 5648 6314",
+      "Email": "protesica4@aslroma3.it",
+      "PEC": "",
+      "Orari_pubblico": "Mar 13:00-15:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma3.it/distretti/municipio-xii/ufficio-riabilitazione-territoriale-assistenza-protesica-municipio-xii/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R4-D1",
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D1",
+      "Ufficio": "Ufficio Protesica Civitavecchia",
+      "Indirizzo": "Viale Lazio 34/b, Civitavecchia",
+      "Telefono": "06 96669627 / 628",
+      "Email": "richiestapresidi@aslroma4.it",
+      "PEC": "",
+      "Orari_pubblico": "Gio 09:00-12:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma4.it/strutture-sanitarie/uoc-non-autosufficienza-e-disabilita-adulti-cad-ed-integrazione-o-t-coordinamento-uvdm-protesica/protesi-ausili-e-presidi",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R4-D2",
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D2",
+      "Ufficio": "Ufficio Protesica Cerveteri",
+      "Indirizzo": "Via Madre Maria Crocefissa Curcio 1-3, Cerveteri",
+      "Telefono": "06 96669627 / 628",
+      "Email": "richiestapresidi@aslroma4.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "Orario telefonico pubblicato",
+      "Affidabilita": "C",
+      "Conflitti_note": "Orario di sportello non specificato sulla pagina servizio-specifica.",
+      "Fonte_link": "https://www.aslroma4.it/strutture-sanitarie/uoc-non-autosufficienza-e-disabilita-adulti-cad-ed-integrazione-o-t-coordinamento-uvdm-protesica/protesi-ausili-e-presidi",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R4-D3",
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D3",
+      "Ufficio": "Ufficio Protesica Bracciano",
+      "Indirizzo": "Via Santa Lucia 22, Bracciano",
+      "Telefono": "06 96669169 / 743",
+      "Email": "richiestapresidi@aslroma4.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "Orario telefonico pubblicato",
+      "Affidabilita": "C",
+      "Conflitti_note": "Orario di sportello non specificato.",
+      "Fonte_link": "https://www.aslroma4.it/strutture-sanitarie/uoc-non-autosufficienza-e-disabilita-adulti-cad-ed-integrazione-o-t-coordinamento-uvdm-protesica/protesi-ausili-e-presidi",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R4-D4-CAP",
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Ufficio": "Ufficio Protesica Capena",
+      "Indirizzo": "Via Monte Travicello 2, Capena",
+      "Telefono": "338 4931076",
+      "Email": "richiestapresidi@aslroma4.it",
+      "PEC": "",
+      "Orari_pubblico": "Mar 09:00-12:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma4.it/strutture-sanitarie/uoc-non-autosufficienza-e-disabilita-adulti-cad-ed-integrazione-o-t-coordinamento-uvdm-protesica/protesi-ausili-e-presidi",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R4-D4-CAM",
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Ufficio": "Ufficio Protesica Campagnano",
+      "Indirizzo": "Piazzale Cesare Leonelli 1, Campagnano di Roma",
+      "Telefono": "06 96669236 / 283",
+      "Email": "richiestapresidi@aslroma4.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Orario pubblico non specificato.",
+      "Fonte_link": "https://www.aslroma4.it/strutture-sanitarie/uoc-non-autosufficienza-e-disabilita-adulti-cad-ed-integrazione-o-t-coordinamento-uvdm-protesica/protesi-ausili-e-presidi",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R5-MONT",
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Monterotondo",
+      "Ufficio": "Assistenza Protesica Monterotondo",
+      "Indirizzo": "Viale dell'Aeronautica 53/b, Monterotondo",
+      "Telefono": "06 90075940",
+      "Email": "protesica.monterotondo@aslroma5.it",
+      "PEC": "",
+      "Orari_pubblico": "Mar, Gio 09:00-12:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma5.it/strutture/uosd-assistenza-protesica-e-integrativa/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R5-GUID",
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Ufficio": "Assistenza Protesica Guidonia",
+      "Indirizzo": "Via dei Castagni 20/22, Guidonia Montecelio",
+      "Telefono": "0774 779741 / 617",
+      "Email": "assistenzaprotesica.guidonia@aslroma5.it",
+      "PEC": "",
+      "Orari_pubblico": "Mar, Mer, Gio 09:00-12:00; luglio/agosto Mar, Mer",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma5.it/strutture/uosd-assistenza-protesica-e-integrativa/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R5-TIV",
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Ufficio": "Assistenza Protesica Tivoli",
+      "Indirizzo": "Piazza Massimo 1, Tivoli*",
+      "Telefono": "0774 704755",
+      "Email": "protesica.tivoli@aslroma5.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "Lun-Ven 09:00-12:00",
+      "Affidabilita": "C",
+      "Conflitti_note": "Indirizzo/orario da riconfermare sulla pagina specifica corrente.",
+      "Fonte_link": "https://www.aslroma5.it/strutture/uosd-assistenza-protesica-e-integrativa/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R5-SUB",
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Ufficio": "Assistenza Protesica Subiaco",
+      "Indirizzo": "Largo Mazzini snc, Subiaco",
+      "Telefono": "0774 8115044 / 5050",
+      "Email": "protesica.subiaco@aslroma5.it",
+      "PEC": "",
+      "Orari_pubblico": "Mar, Gio 08:30-11:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Altra pagina ASL riporta chiusura alle 12:00.",
+      "Fonte_link": "https://www.aslroma5.it/strutture/uosd-assistenza-protesica-e-integrativa/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R5-PAL",
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Ufficio": "Assistenza Protesica Palestrina",
+      "Indirizzo": "CdC Zagarolo, Borgo San Martino 3, Zagarolo",
+      "Telefono": "06 95322824 / 52",
+      "Email": "assistenzaprotesica.palestrina@aslroma5.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Sede e contatti verificati; orario protesica non univoco.",
+      "Fonte_link": "https://www.aslroma5.it/strutture/uosd-assistenza-protesica-e-integrativa/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R5-COLL",
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Ufficio": "Assistenza Protesica Colleferro",
+      "Indirizzo": "Via degli Esplosivi 9, Colleferro",
+      "Telefono": "06 97097520",
+      "Email": "protesica.colleferro@aslroma5.it",
+      "PEC": "",
+      "Orari_pubblico": "Mar, Gio 09:00-12:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.aslroma5.it/strutture/uosd-assistenza-protesica-e-integrativa/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R6-H1",
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Ufficio": "Assistenza Protesica H1",
+      "Indirizzo": "non specificato",
+      "Telefono": "06 9327 4462 / 2899",
+      "Email": "protesica1@aslroma6.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Contatti ausili Mar 09:00-12:00; sede/orario fisico non completo.",
+      "Fonte_link": "https://www.aslroma6.it/-/assistenza-protesica-nuovo-servizio-digitalizzato-per-la-asl-roma-6",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R6-H2",
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H2",
+      "Ufficio": "Assistenza Protesica H2",
+      "Indirizzo": "non specificato",
+      "Telefono": "06 9327 3381 / 4624",
+      "Email": "protesica2@aslroma6.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Telefono Lun, Ven 09:00-12:00; sede/orario fisico non completo.",
+      "Fonte_link": "https://www.aslroma6.it/-/assistenza-protesica-nuovo-servizio-digitalizzato-per-la-asl-roma-6",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R6-H3",
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H3",
+      "Ufficio": "Assistenza Protesica H3",
+      "Indirizzo": "non specificato",
+      "Telefono": "06 9327 4493",
+      "Email": "protesica3@aslroma6.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Sede/orario fisico non completo.",
+      "Fonte_link": "https://www.aslroma6.it/-/assistenza-protesica-nuovo-servizio-digitalizzato-per-la-asl-roma-6",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R6-H4",
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H4",
+      "Ufficio": "Assistenza Protesica H4",
+      "Indirizzo": "non specificato",
+      "Telefono": "06 9327 5265",
+      "Email": "protesica4@aslroma6.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Telefono Lun, Mer, Ven 09:00-11:00; sede/orario fisico non completo.",
+      "Fonte_link": "https://www.aslroma6.it/-/assistenza-protesica-nuovo-servizio-digitalizzato-per-la-asl-roma-6",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R6-H5",
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H5",
+      "Ufficio": "Assistenza Protesica H5",
+      "Indirizzo": "non specificato",
+      "Telefono": "",
+      "Email": "protesica5@aslroma6.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Indirizzo, telefono e orario fisico non verificati.",
+      "Fonte_link": "https://www.aslroma6.it/-/assistenza-protesica-nuovo-servizio-digitalizzato-per-la-asl-roma-6",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "R6-H6",
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H6",
+      "Ufficio": "Assistenza Protesica H6",
+      "Indirizzo": "Villa Albani, Anzio*",
+      "Telefono": "06 9327 6411 / 6432 / 6408",
+      "Email": "protesica6@aslroma6.it",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Presidio Villa Albani, Anzio; civico/orario da verificare.",
+      "Fonte_link": "https://www.aslroma6.it/-/assistenza-protesica-nuovo-servizio-digitalizzato-per-la-asl-roma-6",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "VT-A-MF",
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Ufficio": "Protesica Montefiascone",
+      "Indirizzo": "Via Dante Alighieri 100, Montefiascone",
+      "Telefono": "0761 1860338",
+      "Email": "protesica.montefiascone@asl.vt.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer 08:30-12:30",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Pagina aggiornata 07/08/2025.",
+      "Fonte_link": "https://www.asl.vt.it/protesi-e-ausili",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "VT-A-TUS",
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Ufficio": "Protesica Tuscania",
+      "Indirizzo": "Piazza Basile, Tuscania",
+      "Telefono": "0761 338822",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun-Ven 08:30-12:00; Mar, Gio 15:00-16:30",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Pagina aggiornata 07/08/2025.",
+      "Fonte_link": "https://www.asl.vt.it/protesi-e-ausili",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "VT-A-TAR",
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Ufficio": "Protesica Tarquinia",
+      "Indirizzo": "Viale Igea 1, Tarquinia",
+      "Telefono": "0766 846200",
+      "Email": "protesica.tarquinia@asl.vt.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Gio 09:00-12:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Pagina aggiornata 07/08/2025.",
+      "Fonte_link": "https://www.asl.vt.it/protesi-e-ausili",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "VT-B",
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Ufficio": "Protesica Viterbo",
+      "Indirizzo": "Cittadella della Salute, Via Enrico Fermi 15, Viterbo",
+      "Telefono": "0761 236516",
+      "Email": "protesica.viterbo@asl.vt.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Gio 08:30-12:30",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Pagina aggiornata 07/08/2025.",
+      "Fonte_link": "https://www.asl.vt.it/protesi-e-ausili",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "VT-C-CC",
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Ufficio": "Protesica Civita Castellana",
+      "Indirizzo": "Via F. Petrarca snc, Civita Castellana",
+      "Telefono": "0761 592428",
+      "Email": "protesica.civitacastellana@asl.vt.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Ven 08:30-12:30; Mer 14:30-16:30",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Pagina aggiornata 07/08/2025.",
+      "Fonte_link": "https://www.asl.vt.it/protesi-e-ausili",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "VT-C-VET",
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Ufficio": "Protesica Vetralla",
+      "Indirizzo": "S.S. Cassia km 63, loc. La Botte, Vetralla",
+      "Telefono": "0761 338750",
+      "Email": "protesica.vetralla@asl.vt.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Ven 08:30-12:30; Mer 14:30-16:30",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Pagina aggiornata 07/08/2025.",
+      "Fonte_link": "https://www.asl.vt.it/protesi-e-ausili",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "RI-RIE",
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Ufficio": "NOC Rieti - Assistenza Protesica",
+      "Indirizzo": "non specificato",
+      "Telefono": "0746 278629 / 278792 / 278791",
+      "Email": "protesicadistretto1@asl.rieti.it",
+      "PEC": "distretto1.asl.rieti@pec.it",
+      "Orari_pubblico": "Mar, Gio 08:30-12:00 e 15:00-16:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Piano/stanza e alcuni dettagli di orario da riconfermare.",
+      "Fonte_link": "https://www.asl.rieti.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "RI-ANT",
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Ufficio": "Assistenza Protesica Antrodoco",
+      "Indirizzo": "non specificato",
+      "Telefono": "0746 582028",
+      "Email": "protesicadistretto1@asl.rieti.it",
+      "PEC": "distretto1.asl.rieti@pec.it",
+      "Orari_pubblico": "Mar, Gio 08:30-12:00 e 15:00-16:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Altra indicazione aziendale precedente anticipava l'apertura pomeridiana.",
+      "Fonte_link": "https://www.asl.rieti.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "RI-SEL",
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Ufficio": "Assistenza Protesica S. Elpidio",
+      "Indirizzo": "non specificato",
+      "Telefono": "0746 396020",
+      "Email": "protesicadistretto1@asl.rieti.it",
+      "PEC": "",
+      "Orari_pubblico": "Mar, Gio 08:30-12:00 e 15:00-16:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Da riconfermare prima dell'accesso.",
+      "Fonte_link": "https://www.asl.rieti.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "RI-PC",
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Ufficio": "Assistenza Protesica Passo Corese",
+      "Indirizzo": "non specificato",
+      "Telefono": "0746 279035 / 279066",
+      "Email": "",
+      "PEC": "distretto2.asl.rieti@pec.it",
+      "Orari_pubblico": "Lun, Mer, Ven 09:00-12:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Conflitto/ambiguità di sede da risolvere.",
+      "Fonte_link": "https://www.asl.rieti.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "RI-PM",
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Ufficio": "Assistenza Protesica Poggio Mirteto",
+      "Indirizzo": "non specificato",
+      "Telefono": "0765 448206",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "non specificato*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Indirizzo/orario non specificati in modo univoco.",
+      "Fonte_link": "https://www.asl.rieti.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D1-APR",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Ufficio": "Protesica Aprilia",
+      "Indirizzo": "Via Giustiniano snc, Aprilia*",
+      "Telefono": "",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun-Ven 09:00-12:00; Mar, Gio 15:00-17:00*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Fonte ufficiale ma datata/ambiguamente impaginata.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D1-CIS",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Ufficio": "Protesica Cisterna",
+      "Indirizzo": "Piazza XIX Marzo, Cisterna di Latina*",
+      "Telefono": "",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun-Ven 09:00-12:00; Mar, Gio 15:00-17:00*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Da riconfermare.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D1-COR",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Ufficio": "Protesica Cori",
+      "Indirizzo": "Via G. Marconi 1, Cori*",
+      "Telefono": "",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun-Ven 09:00-12:00; Mar, Gio 15:00-17:00*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Da riconfermare.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D2-LAT",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Ufficio": "Protesica Latina",
+      "Indirizzo": "Via Cesare Battisti 50, Latina*",
+      "Telefono": "0773 6553305 / 04*",
+      "Email": "ufficioprotesicad2latina@ausl.latina.it*",
+      "PEC": "",
+      "Orari_pubblico": "Lun-Ven 08:30-11:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Altri documenti aziendali riportano recapiti differenti.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D2-SAB",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Ufficio": "Protesica Sabaudia",
+      "Indirizzo": "Via Conte Verde, Sabaudia*",
+      "Telefono": "",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Mer 08:30-11:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Punto riportato da fonte ufficiale storica, da riconfermare.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D2-PON",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Ufficio": "Protesica Pontinia",
+      "Indirizzo": "Via Fratelli Bandiera 7, Pontinia*",
+      "Telefono": "",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Mar 10:00-12:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Punto riportato da fonte ufficiale storica, da riconfermare.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D3-PRI",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Ufficio": "Protesica Priverno",
+      "Indirizzo": "Via Madonna delle Grazie, Priverno",
+      "Telefono": "0773 910932",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun-Gio 09:00-12:00*",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Informazione ufficiale disponibile ma datata.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D3-SEZ",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Ufficio": "Protesica Sezze",
+      "Indirizzo": "Via S. Bartolomeo, Sezze",
+      "Telefono": "0773 801030",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Mer 09:00-12:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Informazione ufficiale disponibile ma datata.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D4-TER",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Ufficio": "Protesica Terracina",
+      "Indirizzo": "Via Firenze, Ospedale, Terracina",
+      "Telefono": "0773 708820",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer, Ven 08:30-12:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Da riconfermare.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D4-FON",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Ufficio": "Protesica Fondi",
+      "Indirizzo": "Via San Magno, Ospedale, Fondi",
+      "Telefono": "0771 505806",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer, Ven 08:30-12:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "B",
+      "Conflitti_note": "Struttura confermata nel 2026, recapiti/orari storici da riconfermare.",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "LT-D5-GAE",
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Ufficio": "Protesica Gaeta",
+      "Indirizzo": "Ospedale Don Luigi Di Liegro, Salita Cappuccini, Gaeta, stanze 4-5-6/B",
+      "Telefono": "0771 779367 / 779327",
+      "Email": "ufficioprotesigaeta@ausl.latina.it",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer 09:00-12:00 e 15:00-16:30; Ven 09:00-12:00",
+      "Orari_telefonici": "",
+      "Affidabilita": "A",
+      "Conflitti_note": "",
+      "Fonte_link": "https://www.ausl.latina.it/gs-servterritoriali/296-dis5-servizi?tmpl=component",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "FR-A-ANA",
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Ufficio": "Sportello Protesica Anagni",
+      "Indirizzo": "non specificato",
+      "Telefono": "",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer 08:30-11:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Recapiti/sede da riconfermare.",
+      "Fonte_link": "https://www.asl.fr.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "FR-A-ALA",
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Ufficio": "Sportello Protesica Alatri",
+      "Indirizzo": "non specificato",
+      "Telefono": "",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Mar, Gio 08:30-12:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Recapiti/sede da riconfermare.",
+      "Fonte_link": "https://www.asl.fr.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "FR-B",
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Ufficio": "Ufficio Protesica Frosinone",
+      "Indirizzo": "Vecchio Ospedale, Viale Mazzini, Frosinone*",
+      "Telefono": "",
+      "Email": "",
+      "PEC": "protocollo@pec.aslfrosinone.it",
+      "Orari_pubblico": "Lun, Mer, Ven 08:30-12:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Sede/orario da riconfermare prima della pubblicazione.",
+      "Fonte_link": "https://www.asl.fr.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "FR-C",
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Ufficio": "Ufficio Protesica Sora",
+      "Indirizzo": "Vecchio Ospedale, Via Piemonte, Sora*",
+      "Telefono": "0776 8218312*",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun-Ven 09:00-12:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Contatto protesica generale da riconfermare.",
+      "Fonte_link": "https://www.asl.fr.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "FR-D-CAS",
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Ufficio": "Ufficio Protesica Cassino",
+      "Indirizzo": "Via Gemma De Bosis, ex INAM, Cassino*",
+      "Telefono": "",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun, Mer, Gio 08:30-12:30*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Da riconfermare.",
+      "Fonte_link": "https://www.asl.fr.it/strutture/distretti-sanitari/distretto-sanitario-d/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "Office_ID": "FR-D-PON",
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Ufficio": "Ufficio Protesica Pontecorvo",
+      "Indirizzo": "Casa della Salute, Pontecorvo*",
+      "Telefono": "0776 7692946*",
+      "Email": "",
+      "PEC": "",
+      "Orari_pubblico": "Lun-Ven 08:30-12:00*",
+      "Orari_telefonici": "",
+      "Affidabilita": "C",
+      "Conflitti_note": "Da riconfermare.",
+      "Fonte_link": "https://www.asl.fr.it/strutture/distretti-sanitari/distretto-sanitario-d/",
+      "Ultima_verifica": "2026-09-12"
+    }
+  ],
+  "district_offices": [
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D1",
+      "Office_ID": "R1-D1"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D2",
+      "Office_ID": "R1-D2"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D3",
+      "Office_ID": "R1-D3"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D13",
+      "Office_ID": "R1-D13"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D14",
+      "Office_ID": "R1-D14"
+    },
+    {
+      "ASL": "ASL Roma 1",
+      "Distretto_ID": "D15",
+      "Office_ID": "R1-D15"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D4",
+      "Office_ID": "R2-D4"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D5",
+      "Office_ID": "R2-D5"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D6",
+      "Office_ID": "R2-D6"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D7",
+      "Office_ID": "R2-D7"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D8",
+      "Office_ID": "R2-D8"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Distretto_ID": "D9",
+      "Office_ID": "R2-D9"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Fiumicino",
+      "Office_ID": "R3-FIUM"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio X",
+      "Office_ID": "R3-X"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio XI",
+      "Office_ID": "R3-XI"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Distretto_ID": "Municipio XII",
+      "Office_ID": "R3-XII"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D1",
+      "Office_ID": "R4-D1"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D2",
+      "Office_ID": "R4-D2"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D3",
+      "Office_ID": "R4-D3"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Office_ID": "R4-D4-CAP"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Distretto_ID": "D4",
+      "Office_ID": "R4-D4-CAM"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Monterotondo",
+      "Office_ID": "R5-MONT"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Guidonia",
+      "Office_ID": "R5-GUID"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Tivoli",
+      "Office_ID": "R5-TIV"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Subiaco",
+      "Office_ID": "R5-SUB"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Palestrina",
+      "Office_ID": "R5-PAL"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Distretto_ID": "Colleferro",
+      "Office_ID": "R5-COLL"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H1",
+      "Office_ID": "R6-H1"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H2",
+      "Office_ID": "R6-H2"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H3",
+      "Office_ID": "R6-H3"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H4",
+      "Office_ID": "R6-H4"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H5",
+      "Office_ID": "R6-H5"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Distretto_ID": "H6",
+      "Office_ID": "R6-H6"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Office_ID": "VT-A-MF"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Office_ID": "VT-A-TUS"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "A",
+      "Office_ID": "VT-A-TAR"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "B",
+      "Office_ID": "VT-B"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Office_ID": "VT-C-CC"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Distretto_ID": "C",
+      "Office_ID": "VT-C-VET"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Office_ID": "RI-RIE"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Office_ID": "RI-ANT"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Reatino",
+      "Office_ID": "RI-SEL"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Office_ID": "RI-PC"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Distretto_ID": "Sabino",
+      "Office_ID": "RI-PM"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Office_ID": "LT-D1-APR"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Office_ID": "LT-D1-CIS"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D1",
+      "Office_ID": "LT-D1-COR"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Office_ID": "LT-D2-LAT"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Office_ID": "LT-D2-SAB"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D2",
+      "Office_ID": "LT-D2-PON"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Office_ID": "LT-D3-PRI"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D3",
+      "Office_ID": "LT-D3-SEZ"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Office_ID": "LT-D4-TER"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D4",
+      "Office_ID": "LT-D4-FON"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Distretto_ID": "D5",
+      "Office_ID": "LT-D5-GAE"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Office_ID": "FR-A-ANA"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "A",
+      "Office_ID": "FR-A-ALA"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "B",
+      "Office_ID": "FR-B"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "C",
+      "Office_ID": "FR-C"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Office_ID": "FR-D-CAS"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Distretto_ID": "D",
+      "Office_ID": "FR-D-PON"
+    }
+  ],
+  "procedures": [
+    {
+      "ASL": "ASL Roma 1",
+      "Nuova_fornitura_presentazione": "Prescrizione → ufficio distrettuale; in più sedi è consigliato privilegiare l'e-mail.",
+      "Riparazione_manutenzione": "non specificato; contattare prima l'ufficio competente.",
+      "Gare_extragara_extratariffario": "Procedura unificata specifica non pubblicata nella pagina contatti.",
+      "Collaudo_restituzione": "Secondo regole regionali; dettagli locali non unificati.",
+      "Affidabilita": "A contatti / C procedura dettagliata",
+      "Fonte_link": "https://www.aslroma1.it/servizi-di-assistenza-protesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "ASL": "ASL Roma 2",
+      "Nuova_fornitura_presentazione": "Prescrizione → domanda secondo il protocollo autorizzazioni richiamato dalla pagina.",
+      "Riparazione_manutenzione": "non specificato.",
+      "Gare_extragara_extratariffario": "Commissione extratariffario e alti costi per dispositivi non compresi nel nomenclatore.",
+      "Collaudo_restituzione": "non specificato in modo unificato.",
+      "Affidabilita": "A contatti / B protocollo",
+      "Fonte_link": "https://www.aslroma2.it/index.php/servizi/medicina-legale/medicina-protesica?id=11&view=page",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "ASL": "ASL Roma 3",
+      "Nuova_fornitura_presentazione": "Dal 1° marzo 2024 la domanda passa dal Portale Protesica aziendale.",
+      "Riparazione_manutenzione": "non specificato.",
+      "Gare_extragara_extratariffario": "Modulistica extra-nomenclatore nelle pagine distrettuali.",
+      "Collaudo_restituzione": "Restituzione/ritiro tramite e-mail al distretto con dati del beneficiario, indirizzo, telefono e motivo.",
+      "Affidabilita": "A",
+      "Fonte_link": "https://protesica.aslroma3.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "ASL": "ASL Roma 4",
+      "Nuova_fornitura_presentazione": "Prescrizione su modulo regionale → invio PDF a richiestapresidi@aslroma4.it con oggetto 'Richiesta presidi'.",
+      "Riparazione_manutenzione": "Procedura specifica riparazione non pubblicata; contattare l'ufficio prima di interventi autonomi.",
+      "Gare_extragara_extratariffario": "Pagina e moduli specifici per extra-nomenclatore; richiami a gara/SANPRO per alcune categorie.",
+      "Collaudo_restituzione": "Collaudo entro 20 giorni per ausili non monouso; dismissione via e-mail e ritiro indicato entro 4 giorni lavorativi.",
+      "Affidabilita": "A procedura",
+      "Fonte_link": "https://www.aslroma4.it/strutture-sanitarie/uoc-non-autosufficienza-e-disabilita-adulti-cad-ed-integrazione-o-t-coordinamento-uvdm-protesica/protesi-ausili-e-presidi",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "ASL": "ASL Roma 5",
+      "Nuova_fornitura_presentazione": "Istanza + prescrizione specialista pubblico + documenti + preventivo da fornitore elenco regionale.",
+      "Riparazione_manutenzione": "non specificato.",
+      "Gare_extragara_extratariffario": "Modulo materiale di consumo extragara; ausili ad elevato impegno valutati da Commissione Dispositivi Medici Aziendale.",
+      "Collaudo_restituzione": "Piani terapeutici monouso/ventiloterapia da rinnovare annualmente; altri dettagli non unificati.",
+      "Affidabilita": "A procedura",
+      "Fonte_link": "https://www.aslroma5.it/strutture/uosd-assistenza-protesica-e-integrativa/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "ASL": "ASL Roma 6",
+      "Nuova_fornitura_presentazione": "Portale online per richiesta presidi con instradamento ai distretti H1-H6.",
+      "Riparazione_manutenzione": "non specificato.",
+      "Gare_extragara_extratariffario": "non specificato nelle pagine recuperate.",
+      "Collaudo_restituzione": "non specificato oltre alle regole regionali.",
+      "Affidabilita": "Canale digitale A/B; recapiti fisici C",
+      "Fonte_link": "https://www.aslroma6.it/-/assistenza-protesica-nuovo-servizio-digitalizzato-per-la-asl-roma-6",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "ASL": "ASL Viterbo",
+      "Nuova_fornitura_presentazione": "Modulistica + prescrizione specialista pubblico → presentazione al PUA del distretto → autorizzazione → fornitura.",
+      "Riparazione_manutenzione": "non specificato.",
+      "Gare_extragara_extratariffario": "Moduli extra nomenclatore; possibile riconducibilità funzionale secondo regole applicabili.",
+      "Collaudo_restituzione": "Collaudo entro 20 giorni per non monouso; disponibile modulo consegna ausili/protesi.",
+      "Affidabilita": "B",
+      "Fonte_link": "https://www.asl.vt.it/protesi-e-ausili",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "ASL": "ASL Rieti",
+      "Nuova_fornitura_presentazione": "Accesso tramite servizi protesici dei distretti/NOC e PEC distrettuali; modulistica disponibile per il Sabino.",
+      "Riparazione_manutenzione": "non specificato.",
+      "Gare_extragara_extratariffario": "Gestione secondo disciplina regionale/aziendale; percorso unico non chiaramente pubblicato.",
+      "Collaudo_restituzione": "non specificato.",
+      "Affidabilita": "C",
+      "Fonte_link": "https://www.asl.rieti.it/",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "ASL": "ASL Latina",
+      "Nuova_fornitura_presentazione": "Percorso regionale tramite uffici protesici distrettuali; manca una pagina 2026 unica per tutti i distretti.",
+      "Riparazione_manutenzione": "non specificato.",
+      "Gare_extragara_extratariffario": "non specificato in modo uniforme.",
+      "Collaudo_restituzione": "Regole regionali; tempi locali non uniformemente pubblicati.",
+      "Affidabilita": "D5 A; altri B/C",
+      "Fonte_link": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Ultima_verifica": "2026-09-12"
+    },
+    {
+      "ASL": "ASL Frosinone",
+      "Nuova_fornitura_presentazione": "Prescrizione → ufficio distrettuale → autorizzazione.",
+      "Riparazione_manutenzione": "non specificato.",
+      "Gare_extragara_extratariffario": "Il Distretto A dichiara autorizzazioni per presidi/ausili extratariffari.",
+      "Collaudo_restituzione": "non specificato in modo uniforme.",
+      "Affidabilita": "C fino a riconferma recapiti",
+      "Fonte_link": "https://www.asl.fr.it/",
+      "Ultima_verifica": "2026-09-12"
+    }
+  ],
+  "sources": [
+    {
+      "Source_ID": "S001",
+      "URL": "https://salutelazio.it/it/servizi/assistenza-protesica",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S002",
+      "URL": "https://salutelazio.it/it/servizi/prescrizione-rinnovo",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S003",
+      "URL": "https://www.asl.fr.it/",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S004",
+      "URL": "https://www.asl.fr.it/strutture/distretti-sanitari/distretto-sanitario-d/",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S005",
+      "URL": "https://www.asl.rieti.it/",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S006",
+      "URL": "https://www.asl.rieti.it/organizzazione-aziendale/distretti/uoc-distretto-sabino/",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S007",
+      "URL": "https://www.asl.vt.it/il-tuo-distretto",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S008",
+      "URL": "https://www.asl.vt.it/protesi-e-ausili",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S009",
+      "URL": "https://www.aslroma1.it/servizi-di-assistenza-protesica",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S010",
+      "URL": "https://www.aslroma2.it/index.php/servizi/medicina-legale/medicina-protesica?id=11&view=page",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S011",
+      "URL": "https://www.aslroma3.it/distretti/fiumicino/ufficio-riabilitazione-territoriale-assistenza-protesica-fiumicino/",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S012",
+      "URL": "https://www.aslroma3.it/distretti/municipio-x/ufficio-riabilitazione-territoriale-assistenza-protesica-municipio-x/",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S013",
+      "URL": "https://www.aslroma3.it/distretti/municipio-xi/ufficio-riabilitazione-territoriale-assistenza-protesica-municipio-xi/",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S014",
+      "URL": "https://www.aslroma3.it/distretti/municipio-xii/ufficio-riabilitazione-territoriale-assistenza-protesica-municipio-xii/",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S015",
+      "URL": "https://www.aslroma4.it/strutture-sanitarie/uoc-non-autosufficienza-e-disabilita-adulti-cad-ed-integrazione-o-t-coordinamento-uvdm-protesica/protesi-ausili-e-presidi",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S016",
+      "URL": "https://www.aslroma5.it/strutture/uosd-assistenza-protesica-e-integrativa/",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S017",
+      "URL": "https://www.aslroma6.it/-/assistenza-protesica-nuovo-servizio-digitalizzato-per-la-asl-roma-6",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S018",
+      "URL": "https://www.ausl.latina.it/30-dati-aperti/460-faqassprotesica",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S019",
+      "URL": "https://www.ausl.latina.it/gs-servterritoriali/296-dis5-servizi?tmpl=component",
+      "Data_verifica": "2026-09-12"
+    },
+    {
+      "Source_ID": "S020",
+      "URL": "https://www.regione.lazio.it/sites/default/files/2025-01/Allegato1-comuni-per-distretto.pdf",
+      "Data_verifica": "2026-09-12"
+    }
+  ]
+}

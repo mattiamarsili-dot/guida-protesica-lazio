@@ -1,0 +1,245 @@
+{
+  "updated": "2026-09-13",
+  "purpose": "Filtro orientativo CAP Roma → massimo due Municipi. I CAP troppo trasversali richiedono verifica per indirizzo.",
+  "official_address_lookup": "https://www.comune.roma.it/web/it/mappa-dei-municipi.page",
+  "mapping": {
+    "00118": [
+      "Municipio VII"
+    ],
+    "00119": [
+      "Municipio X"
+    ],
+    "00121": [
+      "Municipio X"
+    ],
+    "00122": [
+      "Municipio X"
+    ],
+    "00123": [
+      "Municipio XV"
+    ],
+    "00124": [
+      "Municipio X"
+    ],
+    "00125": [
+      "Municipio X"
+    ],
+    "00126": [
+      "Municipio X"
+    ],
+    "00127": [
+      "Municipio IX",
+      "Municipio X"
+    ],
+    "00128": [
+      "Municipio IX"
+    ],
+    "00129": [
+      "Municipio IX"
+    ],
+    "00131": [
+      "Municipio IV"
+    ],
+    "00132": [
+      "Municipio VI"
+    ],
+    "00133": [
+      "Municipio VI"
+    ],
+    "00134": [
+      "Municipio IX"
+    ],
+    "00135": [
+      "Municipio XIV",
+      "Municipio XV"
+    ],
+    "00136": [
+      "Municipio XIV",
+      "Municipio I"
+    ],
+    "00137": [
+      "Municipio III"
+    ],
+    "00138": [
+      "Municipio III"
+    ],
+    "00139": [
+      "Municipio III"
+    ],
+    "00141": [
+      "Municipio III"
+    ],
+    "00142": [
+      "Municipio VIII",
+      "Municipio IX"
+    ],
+    "00143": [
+      "Municipio IX"
+    ],
+    "00144": [
+      "Municipio IX"
+    ],
+    "00145": [
+      "Municipio VIII"
+    ],
+    "00146": [
+      "Municipio XI",
+      "Municipio VIII"
+    ],
+    "00147": [
+      "Municipio VIII"
+    ],
+    "00148": [
+      "Municipio XI"
+    ],
+    "00149": [
+      "Municipio XI"
+    ],
+    "00151": [
+      "Municipio XII",
+      "Municipio XI"
+    ],
+    "00152": [
+      "Municipio XII"
+    ],
+    "00153": [
+      "Municipio I",
+      "Municipio VIII"
+    ],
+    "00154": [
+      "Municipio VIII"
+    ],
+    "00155": [
+      "Municipio V",
+      "Municipio IV"
+    ],
+    "00156": [
+      "Municipio IV"
+    ],
+    "00157": [
+      "Municipio IV"
+    ],
+    "00158": [
+      "Municipio IV"
+    ],
+    "00159": [
+      "Municipio IV",
+      "Municipio V"
+    ],
+    "00161": [
+      "Municipio II"
+    ],
+    "00162": [
+      "Municipio II",
+      "Municipio IV"
+    ],
+    "00163": [
+      "Municipio XII",
+      "Municipio XI"
+    ],
+    "00164": [
+      "Municipio XII"
+    ],
+    "00165": [
+      "Municipio I",
+      "Municipio XIII"
+    ],
+    "00166": [],
+    "00167": [
+      "Municipio XIII",
+      "Municipio XIV"
+    ],
+    "00168": [
+      "Municipio XIV"
+    ],
+    "00169": [
+      "Municipio VI",
+      "Municipio V"
+    ],
+    "00171": [
+      "Municipio V"
+    ],
+    "00172": [
+      "Municipio V"
+    ],
+    "00173": [
+      "Municipio VII",
+      "Municipio VI"
+    ],
+    "00174": [
+      "Municipio VII"
+    ],
+    "00175": [
+      "Municipio VII",
+      "Municipio V"
+    ],
+    "00176": [
+      "Municipio V"
+    ],
+    "00177": [
+      "Municipio V"
+    ],
+    "00178": [
+      "Municipio VII",
+      "Municipio IX"
+    ],
+    "00179": [
+      "Municipio VII"
+    ],
+    "00181": [
+      "Municipio VII"
+    ],
+    "00182": [
+      "Municipio VII"
+    ],
+    "00183": [
+      "Municipio VII",
+      "Municipio I"
+    ],
+    "00184": [
+      "Municipio I"
+    ],
+    "00185": [
+      "Municipio I"
+    ],
+    "00186": [
+      "Municipio I"
+    ],
+    "00187": [
+      "Municipio I",
+      "Municipio II"
+    ],
+    "00188": [
+      "Municipio XV"
+    ],
+    "00189": [
+      "Municipio XV"
+    ],
+    "00191": [
+      "Municipio XV"
+    ],
+    "00192": [
+      "Municipio I"
+    ],
+    "00193": [
+      "Municipio I"
+    ],
+    "00195": [
+      "Municipio I"
+    ],
+    "00196": [
+      "Municipio II",
+      "Municipio I"
+    ],
+    "00197": [
+      "Municipio II"
+    ],
+    "00198": [
+      "Municipio II"
+    ],
+    "00199": [
+      "Municipio II",
+      "Municipio III"
+    ]
+  }
+}
