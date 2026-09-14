@@ -19,6 +19,21 @@ function validAddress(a){return a&&!norm(a).includes("non specificato")}
 function mapUrl(a){return"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(a.replace(/\*/g,"").trim())}
 function uniqueSources(os){return uniq(os.map(o=>o.Fonte_link).filter(Boolean))}
 
+function romanToInt(s){
+  const map={I:1,V:5,X:10,L:50,C:100,D:500,M:1000};
+  let total=0;
+  for(let i=0;i<s.length;i++){
+    const cur=map[s[i]],next=map[s[i+1]];
+    total+=(next&&cur<next)?-cur:cur;
+  }
+  return total;
+}
+function compareTerritorio(a,b){
+  const ra=/^Municipio\s+([IVXLCDM]+)$/i.exec(a),rb=/^Municipio\s+([IVXLCDM]+)$/i.exec(b);
+  if(ra&&rb) return romanToInt(ra[1].toUpperCase())-romanToInt(rb[1].toUpperCase());
+  return a.localeCompare(b,"it",{numeric:true});
+}
+
 function hideModes(){["mode-roma","mode-comune","mode-cap","mode-asl","result"].forEach(id=>$(id).classList.add("hidden"))}
 function setHeaderMode(isResult){$("hero").classList.toggle("hidden",isResult);$("mini-header").classList.toggle("hidden",!isResult)}
 function openMode(mode){
@@ -32,13 +47,13 @@ function renderRome(){
   const rome=TERRITORIES.filter(t=>t.Tipo_territorio==="Municipio");
   const asls=["ASL Roma 1","ASL Roma 2","ASL Roma 3"];
   $("rome-groups").innerHTML=asls.map(asl=>{
-    const rows=rome.filter(t=>t.ASL===asl).sort((a,b)=>a.Comune_o_Municipio.localeCompare(b.Comune_o_Municipio,"it",{numeric:true}));
+    const rows=rome.filter(t=>t.ASL===asl).sort((a,b)=>compareTerritorio(a.Comune_o_Municipio,b.Comune_o_Municipio));
     return `<div class="asl-group"><div class="asl-head"><div class="asl-name">${esc(asl)}</div><span class="small">${rows.length} Municipi</span></div>
       <div class="municipio-grid">${rows.map(t=>`<button class="municipio" onclick="selectByKey('${esc(t.ASL)}','${esc(t.Distretto_ID)}','${esc(t.Comune_o_Municipio)}')"><strong>${esc(t.Comune_o_Municipio)}</strong><small>${esc(districtFor(t)?.Distretto||t.Distretto_ID)}</small></button>`).join("")}</div></div>`;
   }).join("");
 }
 
-const COMUNI=TERRITORIES.filter(t=>t.Tipo_territorio==="Comune").sort((a,b)=>a.Comune_o_Municipio.localeCompare(b.Comune_o_Municipio,"it"));
+const COMUNI=TERRITORIES.filter(t=>t.Tipo_territorio==="Comune").sort((a,b)=>compareTerritorio(a.Comune_o_Municipio,b.Comune_o_Municipio));
 function closeComuneSuggestions(){const b=$("comune-suggestions"),i=$("comune-search");b.classList.remove("show");b.innerHTML="";i.setAttribute("aria-expanded","false")}
 function renderComuneSuggestions(){
   const input=$("comune-search"),q=norm(input.value),box=$("comune-suggestions"),msg=$("comune-msg");
@@ -224,7 +239,7 @@ function browseAsl(asl){
     ${Object.keys(groups).sort((a,b)=>a.localeCompare(b,"it",{numeric:true})).map(did=>{
       const sample=groups[did][0],d=districtFor(sample);
       return `<div class="distretto"><strong>${esc(d?.Distretto||did)}</strong><div class="small" style="margin:2px 0 8px">${isRome?"Municipi":"Comuni"} del distretto</div>
-      <div class="municipio-grid">${groups[did].sort((a,b)=>a.Comune_o_Municipio.localeCompare(b.Comune_o_Municipio,"it")).map(t=>`<button class="municipio" onclick="selectByKey('${esc(t.ASL)}','${esc(t.Distretto_ID)}','${esc(t.Comune_o_Municipio)}')">${esc(t.Comune_o_Municipio)}</button>`).join("")}</div></div>`;
+      <div class="municipio-grid">${groups[did].sort((a,b)=>compareTerritorio(a.Comune_o_Municipio,b.Comune_o_Municipio)).map(t=>`<button class="municipio" onclick="selectByKey('${esc(t.ASL)}','${esc(t.Distretto_ID)}','${esc(t.Comune_o_Municipio)}')">${esc(t.Comune_o_Municipio)}</button>`).join("")}</div></div>`;
     }).join("")}</div>`;
 }
 function selectByKey(asl,did,name){const t=TERRITORIES.find(x=>x.ASL===asl&&x.Distretto_ID===did&&x.Comune_o_Municipio===name);if(t)showResult(t)}
